@@ -50,7 +50,7 @@ projects:
 # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-        title: TADA "[logo]: http://www.gstatic.com/webp/gallery/2.jpg "To go kayaking.""
+        title: TADA
         link: "https://play.google.com/store/apps/details?id=io.mvlchain.tada"
         tagline: "<br>A responsive website template designed to help startups promote, market and sell their products."
 
