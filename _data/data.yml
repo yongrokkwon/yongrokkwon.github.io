@@ -49,7 +49,7 @@ projects:
 # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: TADA ![ICON](https://lh3.googleusercontent.com/rn5bGFg6rH_SDdwSBQyA3nfO_hBO6aKHbiS9VpTdrWBIpIHDDF4bOa3xRX2IN-yo0xU=s360-rw "링크 설명(title)을 작성하세요.")
+      - title: TADA <br>test
         link: "https://play.google.com/store/apps/details?id=io.mvlchain.tada"
         tagline: "<br>A responsive website template designed to help startups promote, market and sell their products."
 
