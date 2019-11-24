@@ -45,15 +45,15 @@ experiences:
 projects:
     title: Projects
     intro: >
-      <h1>Android Software Engineer, Easi6 • 2019.06 - Present</h1>
-      <a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada"><img src="https://lh3.googleusercontent.com/rn5bGFg6rH_SDdwSBQyA3nfO_hBO6aKHbiS9VpTdrWBIpIHDDF4bOa3xRX2IN-yo0xU=s360-rw" width=50px />TADA</a><br>
+      <h3>Android Software Engineer, Easi6 • 2019.06 - Present</h3>
+      <a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada"><img src="https://lh3.googleusercontent.com/rn5bGFg6rH_SDdwSBQyA3nfO_hBO6aKHbiS9VpTdrWBIpIHDDF4bOa3xRX2IN-yo0xU=s360-rw" width=50px />TADA</a><br><br>
       싱가폴, 베트남, 캄보디아에서 서비스 중인 라이드 헤일링 앱. 2020년 한국 런칭 계획중이며 현재 필자가 독자적 개발 진행임. (UI 변경 및 한국 법률에 따른 기술 스펙 변화등) <br>
-      제로 커미션과 MVL의 지급으로 다른 라이드 헤일링 서비스와 차별성이 있음.
-      Kotlin 기반, MVVM 구조, Repository 패턴, Espresso와 okhttp3.mockwebserver를 이용한 UI 테스트, Dagger2, Glide, RX Java, Leakcanary, Retrofit 등 다양한 라이브러리 사용.
+      제로 커미션과 MVL의 지급으로 다른 라이드 헤일링 서비스와 차별성이 있음.<br>
+      Kotlin 기반, MVVM 구조, Repository 패턴, Espresso와 okhttp3.mockwebserver를 이용한 UI 테스트, Dagger2, Glide, RX Java, Leakcanary, Retrofit 등 다양한 라이브러리 사용.<br><br>
       
       <a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada.driver"><img src="https://lh3.googleusercontent.com/0z2libnvW-TNQ8yVPggAQIOCy0I2n2cPdP80TNreyNqDmKaFBfeuXO2JH9JQ7EZdq-k=s360-rw" width=50px />TADA Driver</a><br>
       
-      <h1>Android Software Engineer, 2017.09 - 2019.06</h1>
+      <h3>Android Software Engineer, 2017.09 - 2019.06</h3>
 
     assignments:
       - title: TADA
