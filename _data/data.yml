@@ -49,7 +49,8 @@ projects:
 # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: [GOOGLE](https://play.google.com/store/apps/details?id=io.mvlchain.tada)
+      - title: TADA
+        link: "https://play.google.com/store/apps/details?id=io.mvlchain.tada"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
       - title: DevStudio
