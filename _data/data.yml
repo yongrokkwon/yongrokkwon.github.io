@@ -43,9 +43,24 @@ experiences:
       time: 2017.09 - 2019.06
       company: 공간소프트
       details: |
-        전자처방전과 국내 주요 대형 병원들에게 환자 편의성을 위한 앱을 납품하는 SI 업체.
+        전자처방전과 국내 주요 대형 병원들에게 환자 편의성을 위한 앱을 납품하는 SI 업체. <br>
         안드로이드 개발자가 모두 퇴사하여 혼자서 발전해나가며 개발을 진행하였음.
         서울대병원 및 삼성서울병원의 전자처방전 정부과제를 진행하였으며 추가로 회사의 독자적인 전자처방전 앱을 개발함.
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
 projects:
     title: Projects
     intro: >
