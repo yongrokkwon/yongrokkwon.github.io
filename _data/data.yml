@@ -37,31 +37,15 @@ experiences:
       time: 2019.06 - Present
       company: Easi6, MVL Foundation
       details: |
-        TADA App 개발
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        MVL이란 블록체인 생태계를 구축하고자 그 첫 시작으로 TADA라는 앱을 싱가폴을 시작으로 베트남, 캄보디아에서 서비스 중며 2020년 한국 런칭을 진행중인 스타트업.
+        총 5명 (한국인 4, 베트남 1)으로 구성된 안드로이드 팀에서 주요 기능 개발, 코드 리뷰, 버그 수정, 앱 구조 개선 및 관리, 정부 과제 프로젝트 진행 등 안드로이드 핵심 개발을 맡고 있음.
+    - role: Android Software Engineer
+      time: 2017.09 - 2019.06
+      company: 공간소프트
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        전자처방전과 국내 주요 대형 병원들에게 환자 편의성을 위한 앱을 납품하는 SI 업체.
+        안드로이드 개발자가 모두 퇴사하여 혼자서 발전해나가며 개발을 진행하였음.
+        서울대병원 및 삼성서울병원의 전자처방전 정부과제를 진행하였으며 추가로 회사의 독자적인 전자처방전 앱을 개발함.
 projects:
     title: Projects
     intro: >
