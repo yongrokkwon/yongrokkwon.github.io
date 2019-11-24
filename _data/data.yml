@@ -38,19 +38,18 @@ experiences:
       time: 2017.09 - 2019.06
       company: 공간소프트
       details: |
-        전자처방전과 국내 주요 대형 병원들에게 환자 편의성을 위한 앱을 납품하는 SI 업체.<br>
+        전자 처방전과 국내 주요 대형 병원들에게 환자 편의성을 위한 앱을 납품하는 SI 업체.<br>
         안드로이드 개발자가 모두 퇴사하여 혼자서 발전해나가며 개발을 진행하였음.<br>
-        소스 형상 관리 시스템이 갖춰져 있지 않아 깃을 도입하였고 비정상 종료 발생율이 60% 달하는 앱을 파이어베이스 크래시리틱스를 도입하여 10% 미만으로 낮추는 성과를 거둠.<br>
-        서울대병원 및 삼성서울병원의 전자처방전 정부과제를 진행하였으며 추가로 회사의 독자적인 전자처방전 앱을 개발함.
+        소스 형상 관리 시스템이 갖춰져 있지 않아 깃을 도입하였고 비정상 종료 발생률이 60% 달하는 앱을 파이어베이스 크래시리틱스를 도입하여 10% 미만으로 낮추는 성과를 거둠.<br>
+        서울대병원 및 삼성서울병원의 전자 처방전 정부과제를 진행하였으며 추가로 회사의 독자적인 전자 처방전 앱을 개발함.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+# You can list your side projects or open source libraries in this
+# section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
+      - title: [GOOGLE](https://play.google.com/store/apps/details?id=io.mvlchain.tada)
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
       - title: DevStudio
