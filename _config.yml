@@ -3,6 +3,7 @@
 # Site Settings
 title: Yongrok Resume
 url: 'https://yongrokkwon.github.io'
+markdown: kramdown
 baseurl:  #change it according to your repository name
 description:
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
