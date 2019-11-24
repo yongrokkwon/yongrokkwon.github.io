@@ -19,7 +19,7 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
 career-profile:
-    title: Career Profile
+    title: Intro
     summary: |
       말 한마디로 천 냥 빚을 갚는다라는 속담이 있듯이 개발자에게는 소스코드 한 줄에 큰 의미가 있고 항상 그 코드에 의미를 신중하게 생각하며 코딩을 합니다.
 education:
