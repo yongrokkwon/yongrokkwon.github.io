@@ -49,9 +49,10 @@ projects:
 # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: TADA
+      - title: TADA "![ICON](https://lh3.googleusercontent.com/rn5bGFg6rH_SDdwSBQyA3nfO_hBO6aKHbiS9VpTdrWBIpIHDDF4bOa3xRX2IN-yo0xU=s360-rw)"
         link: "https://play.google.com/store/apps/details?id=io.mvlchain.tada"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: |
+        "A responsive website template designed to help startups promote, market and sell their products."
 
       - title: DevStudio
         link: "#"
