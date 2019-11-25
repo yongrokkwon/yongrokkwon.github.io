@@ -60,7 +60,7 @@ projects:
       <h3>공간소프트 • 2017.09 - 2019.06</h3><br>
       <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.mmc.phwi"><img src="https://lh3.googleusercontent.com/d-6kZnr7wkhYQ6J0ApG5btTfMUpezDlDndlH2ALk2pnBMkFjzl8ZQvvILa5OF7tHCtlB=s360-rw" width=50px/></a>
       <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.chahospital"><img src="https://lh3.googleusercontent.com/ekJs-AEYCriK-kdEmn5LeG-KIOsDqA6rziCFxVUJnSLVaTkEBxt7RWiEGEOla9f93A8=s360-rw" width=50px/></a><br><br>
-      <u>종이 처방전을 모바일에서 약국으로 전송 가능한 앱 개발.</u> <br><br>
+      <u>전자처방전(<a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription">E-Health</a>, <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass">처방패스</a>) 앱 개발.</u> <br><br>
       EDB회사(약국프로그램 전문회사)와 협업이 진행되었고 EDB에서 기존에 처방전 저장 앱 개발이 되어 있던 앱 디자인 변경 및 약국과 처방전 전송이 가능하도록 신규 기능 개발. <br>
       <a href="http://www.etnews.com/20180102000145">그 외에 서울대병원, 삼성서울병원 전자처방전 시범사업을 진행하였음.</a><br><br>
       
@@ -74,9 +74,10 @@ projects:
       Java 기반, Glide, Retrofit등의 라이브러리를 사용함<br><br>
       
       <h3>Toy Project</h3>
+      <u>공기정보 • 2018.06 - 2018.09</u>
       <a href="https://play.google.com/store/apps/details?id=com.ksoft.airinfo.app"><img src="https://lh3.googleusercontent.com/HZIS5TIX1er6WhKaykKTMIOQnltmsjzba9ev4wONg5l6lUnvacKRirgqrRg0A6lytrM=s360-rw" width=50px/>공기정보</a><br><br>
       심심해서 만들어본 개인 프로젝트. 실력 향상을 목적으로 개발을 진행하였음.<br>
-      이후에 유지보수를 꾸준히 하면서 코드퀄리티 상승을 하려했지만 개인적인 외주 및 연합 동아리 참가를 하게 되면서 유지보수를 안하게되었음.<br>
+      이후에 유지보수를 하면서 코드퀄리티 상승을 하려했지만 개인적인 외주 및 연합 동아리 참가를 하게 되면서 유지보수를 가끔식 하는 수준으로 현재도 생각날때 마다 진행중.<br>
       Kotlin 기반, MVVM, Dagger2, RX Java, LiveData등의 라이브러리를 사용함.
 
 skills:
