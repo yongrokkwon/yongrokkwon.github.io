@@ -58,15 +58,14 @@ projects:
       
       
       <h3>공간소프트 • 2017.09 - 2019.06</h3><br>
-      <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.mmc.phwi"><img src="https://lh3.googleusercontent.com/d-6kZnr7wkhYQ6J0ApG5btTfMUpezDlDndlH2ALk2pnBMkFjzl8ZQvvILa5OF7tHCtlB=s360-rw" width=50px/></a>
-      <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.chahospital"><img src="https://lh3.googleusercontent.com/ekJs-AEYCriK-kdEmn5LeG-KIOsDqA6rziCFxVUJnSLVaTkEBxt7RWiEGEOla9f93A8=s360-rw" width=50px/></a><br><br>
+      <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass"><img src="https://lh3.googleusercontent.com/gHhg7xOV3dZa-uBcPVsnPiJ0ShdT2pbtW9Agil1pmnBcSco0g2Y-WmKpcrrh9pTSoZo=s360-rw" width=50px/></a>
+      <a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription"><img src="https://lh3.googleusercontent.com/byB9hdQapkqd7jd4ncxGy69QQoh9Pxo82MViQn5u4fFtuB20_6wcELsK-IWZTeQ7_cA=s360-rw" width=50px/></a><br><br>
       <u>전자처방전(<a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription">E-Health</a>, <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass">처방패스</a>) 앱 개발.</u> <br><br>
       EDB회사(약국프로그램 전문회사)와 협업이 진행되었고 EDB에서 기존에 처방전 저장 앱 개발이 되어 있던 앱 디자인 변경 및 약국과 처방전 전송이 가능하도록 신규 기능 개발. <br>
       <a href="http://www.etnews.com/20180102000145">그 외에 서울대병원, 삼성서울병원 전자처방전 시범사업을 진행하였음.</a><br><br>
       
-      
-      <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass"><img src="https://lh3.googleusercontent.com/gHhg7xOV3dZa-uBcPVsnPiJ0ShdT2pbtW9Agil1pmnBcSco0g2Y-WmKpcrrh9pTSoZo=s360-rw" width=50px/></a>
-      <a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription"><img src="https://lh3.googleusercontent.com/byB9hdQapkqd7jd4ncxGy69QQoh9Pxo82MViQn5u4fFtuB20_6wcELsK-IWZTeQ7_cA=s360-rw" width=50px/></a><br><br>
+      <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.mmc.phwi"><img src="https://lh3.googleusercontent.com/d-6kZnr7wkhYQ6J0ApG5btTfMUpezDlDndlH2ALk2pnBMkFjzl8ZQvvILa5OF7tHCtlB=s360-rw" width=50px/></a>
+      <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.chahospital"><img src="https://lh3.googleusercontent.com/ekJs-AEYCriK-kdEmn5LeG-KIOsDqA6rziCFxVUJnSLVaTkEBxt7RWiEGEOla9f93A8=s360-rw" width=50px/></a><br><br>
       <u>종합병원 및 검진센터 솔루션 모바일 진료카드 앱 개발.</u> <br><br>
       플레이스토어에 출시된 앱 기준 하이차(Hi-CHA) 강남차병원 여성의학연구소, 여성아이병원, 안성성모병원 검진센터, 좋은강안병원 건강증진센터, H+양지병원 건강증진센터, 혜민병원 건강증진센터, 에스엠 영상의학과등 출시 및 안드로이드 앱 개발<br>
       위의 앱들의 핵심기능으로는 BLE를 사용하였음. 구체적인 플로우로는 근처에 병원 비콘을 감지하여 환자가 병원에 도착한지 체크한 뒤 도착확인(진료대기) 및 대기표 발권 기능이 활성화하는 기능 구현<br>
