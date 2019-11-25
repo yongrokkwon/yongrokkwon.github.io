@@ -76,8 +76,8 @@ projects:
       <a href="https://play.google.com/store/apps/details?id=com.ksoft.airinfo.app"><img src="https://lh3.googleusercontent.com/HZIS5TIX1er6WhKaykKTMIOQnltmsjzba9ev4wONg5l6lUnvacKRirgqrRg0A6lytrM=s360-rw" width=50px/>공기정보</a><br>
       <u>공기정보 • 2018.06 - 2018.09</u><br><br>
       심심해서 만들어본 개인 프로젝트. 실력 향상을 목적으로 개발을 진행하였음.<br>
-      이후에 유지보수를 하면서 코드퀄리티 상승을 하려했지만 개인적인 외주 및 연합 동아리 참가를 하게 되면서 유지보수를 가끔식 하는 수준으로 현재도 생각날때 마다 진행중.<br>
-      Kotlin 기반, MVVM, Dagger2, RX Java, LiveData등의 라이브러리를 사용함.
+      이후에 유지 보수를 하면서 코드퀄리티 상승을 하려 했지만 개인적인 외주 및 연합 동아리 참가를 하게 되면서 유지 보수를 가끔씩 하는 수준으로 현재도 생각날 때마다 진행 중.<br>
+      Kotlin 기반, MVVM, Dagger2, RX Java, LiveData 등의 라이브러리를 사용함.
 
 skills:
     title: Skills &amp; Proficiency
