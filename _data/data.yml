@@ -32,7 +32,7 @@ experiences:
       time: 2019.06 - Present
       company: Easi6, MVL Foundation
       details: |
-        MVL이란 블록체인 생태계를 구축하고자 그 첫 시작으로 TADA라는 앱을 싱가폴을 시작으로 베트남, 캄보디아에서 서비스 중며 2020년 한국 런칭을 진행중인 스타트업.<br><br>
+        MVL이란 블록체인 생태계를 구축하고자 그 첫 시작으로 TADA라는 앱을 싱가폴을 시작으로 베트남, 캄보디아에서 서비스 중이며 2020년 한국 런칭을 준비중인 스타트업.<br><br>
         총 5명 (한국인 4, 베트남 1)으로 구성된 안드로이드 팀에서 주요 기능 개발, 코드 리뷰, 버그 수정, 앱 구조 개선 및 관리, 정부 과제 프로젝트 진행 등 안드로이드 핵심 개발을 맡고 있음.<br>
     - role: Android Software Engineer
       time: 2017.09 - 2019.06
@@ -46,23 +46,23 @@ projects:
     title: Projects
     intro: >
       <h3>Easi6, MVL Foundation  • 2019.06 - Present</h3><br>
-      <a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada"><img src="https://lh3.googleusercontent.com/rn5bGFg6rH_SDdwSBQyA3nfO_hBO6aKHbiS9VpTdrWBIpIHDDF4bOa3xRX2IN-yo0xU=s360-rw" width=50px />TADA</a><br><br>
+      <b><a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada"><img src="https://lh3.googleusercontent.com/rn5bGFg6rH_SDdwSBQyA3nfO_hBO6aKHbiS9VpTdrWBIpIHDDF4bOa3xRX2IN-yo0xU=s360-rw" width=50px />TADA</a></b><br><br>
       싱가폴, 베트남, 캄보디아에서 서비스 중인 라이드 헤일링 앱. 2020년 한국 런칭 계획중이며 한국 앱의 경우 현재 필자가 독자적 개발 진행중임. (UI 변경 및 한국 법률에 따른 기술 스펙 변화등) <br>
       제로 커미션과 MVL의 지급으로 다른 라이드 헤일링 서비스와 차별성이 있음.<br>
       Kotlin 기반, MVVM 구조, Repository 패턴, Espresso와 okhttp3.mockwebserver를 이용한 UI 테스트, LiveData, Dagger2, Glide, RX Java, Leakcanary, Retrofit 등 다양한 라이브러리 사용.<br><br>
       
-      <a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada.driver"><img src="https://lh3.googleusercontent.com/0z2libnvW-TNQ8yVPggAQIOCy0I2n2cPdP80TNreyNqDmKaFBfeuXO2JH9JQ7EZdq-k=s360-rw" width=50px />TADA Driver</a><br>
+      <b><a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada.driver"><img src="https://lh3.googleusercontent.com/0z2libnvW-TNQ8yVPggAQIOCy0I2n2cPdP80TNreyNqDmKaFBfeuXO2JH9JQ7EZdq-k=s360-rw" width=50px />TADA Driver</a></b><br>
       TADA 앱의 드라이버 용 버전.<br>
       floating icon, 위치 업데이트 및 가속도 측정을 위해서 Service를 더 중점적으로 다룬 앱.<br>
       나라별 드라이버에 따른 다른 대응이 필요해서 Localization에 신경을 쓴 앱.<br><br>
       
       
       <h3>공간소프트 • 2017.09 - 2019.06</h3><br>
-      <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass"><img src="https://lh3.googleusercontent.com/gHhg7xOV3dZa-uBcPVsnPiJ0ShdT2pbtW9Agil1pmnBcSco0g2Y-WmKpcrrh9pTSoZo=s360-rw" width=50px/></a>
-      <a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription"><img src="https://lh3.googleusercontent.com/byB9hdQapkqd7jd4ncxGy69QQoh9Pxo82MViQn5u4fFtuB20_6wcELsK-IWZTeQ7_cA=s360-rw" width=50px/></a><br><br>
-      <u>전자처방전(<a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription">E-Health</a>, <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass">처방패스</a>) 앱 개발.</u> <br><br>
+      <b><a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass"><img src="https://lh3.googleusercontent.com/gHhg7xOV3dZa-uBcPVsnPiJ0ShdT2pbtW9Agil1pmnBcSco0g2Y-WmKpcrrh9pTSoZo=s360-rw" width=50px/></a></b>
+      <b><a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription"><img src="https://lh3.googleusercontent.com/byB9hdQapkqd7jd4ncxGy69QQoh9Pxo82MViQn5u4fFtuB20_6wcELsK-IWZTeQ7_cA=s360-rw" width=50px/></a></b><br><br>
+      <u>전자처방전(<b><a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription">E-Health</a>, <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass">처방패스</a></b>) 앱 개발.</u> <br><br>
       EDB회사(약국프로그램 전문회사)와 협업이 진행되었고 EDB에서 기존에 처방전 저장 앱 개발이 되어 있던 앱 디자인 변경 및 약국과 처방전 전송이 가능하도록 신규 기능 개발. <br>
-      <a href="http://www.etnews.com/20180102000145">그 외에 서울대병원, 삼성서울병원 전자처방전 시범사업을 진행하였음.</a><br><br>
+      <b><a href="http://www.etnews.com/20180102000145">그 외에 서울대병원, 삼성서울병원 전자처방전 시범사업을 진행하였음.</a></b><br><br>
       
       <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.mmc.phwi"><img src="https://lh3.googleusercontent.com/d-6kZnr7wkhYQ6J0ApG5btTfMUpezDlDndlH2ALk2pnBMkFjzl8ZQvvILa5OF7tHCtlB=s360-rw" width=50px/></a>
       <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.chahospital"><img src="https://lh3.googleusercontent.com/ekJs-AEYCriK-kdEmn5LeG-KIOsDqA6rziCFxVUJnSLVaTkEBxt7RWiEGEOla9f93A8=s360-rw" width=50px/></a><br><br>
@@ -73,12 +73,15 @@ projects:
       Java 기반, Glide, Retrofit 등의 라이브러리를 사용함<br><br>
       
       <h3>Toy Project</h3>      
-      <a href="https://play.google.com/store/apps/details?id=com.ksoft.airinfo.app"><img src="https://lh3.googleusercontent.com/HZIS5TIX1er6WhKaykKTMIOQnltmsjzba9ev4wONg5l6lUnvacKRirgqrRg0A6lytrM=s360-rw" width=50px/>공기정보</a><br>
+      <b><a href="https://play.google.com/store/apps/details?id=com.ksoft.airinfo.app"><img src="https://lh3.googleusercontent.com/HZIS5TIX1er6WhKaykKTMIOQnltmsjzba9ev4wONg5l6lUnvacKRirgqrRg0A6lytrM=s360-rw" width=50px/>공기정보</a><br></b>
       <u>공기정보 • 2018.06 - 2018.09</u><br><br>
       심심해서 만들어본 개인 프로젝트. 실력 향상을 목적으로 개발을 진행하였음.<br>
       이후에 유지 보수를 하면서 코드퀄리티 상승을 하려 했지만 개인적인 외주 및 연합 동아리 참가를 하게 되면서 유지 보수를 가끔씩 하는 수준으로 현재도 생각날 때마다 진행 중.<br>
-      Kotlin 기반, MVVM, Dagger2, RX Java, LiveData 등의 라이브러리를 사용함.
+      Kotlin 기반, MVVM, Dagger2, RX Java, LiveData 등의 라이브러리를 사용함.<br><br>
+      
+      현재는 개발 실력 공개 프로젝트로 오픈소스 전환
 
+      https://github.com/yongrokkwon/airInfo
 skills:
     title: Skills &amp; Proficiency
 
