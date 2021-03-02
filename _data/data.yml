@@ -21,7 +21,10 @@ sidebar:
 career-profile:
     title: Intro
     summary: |
-      말 한마디로 천 냥 빚을 갚는다라는 속담이 있듯이 개발자에게는 소스코드 한 줄에 큰 의미가 있고 항상 그 코드에 의미를 신중하게 생각하며 코딩을 합니다.
+      18년도부터 안드로이드 개발자로 시작하여 SI 병원 앱 개발과 전자처방전 정부 과제를 진행해보았습니다.<br>
+      그 이후 싱가폴, 베트남, 캄보디아 3개국에서 사용 중인 TADA 앱을 개발 중입니다.<br>
+      개발자가 유지 보수만 하게 된다면 기존에 있는 프로젝트의 프레임 워크에 익숙해져서 더 나은 방향의 개발 방식을 생각 하지 않게 된다는 생각을 가지고 있어서 유지 보수만 해보는 것이 아닌 적극적으로 신규 프로젝트에 참여하려고 합니다.<br>
+      직장 외에서도 사이드 프로젝트와 개발 동아리 모임 등을 중요하게 생각하며 참여합니다.
 education:
     - degree: 전자통신과
       university: 서울아이티고등학교
@@ -54,32 +57,32 @@ projects:
       floating icon, 위치 업데이트 및 가속도 측정을 위해서 Service를 더 중점적으로 다룬 앱.<br>
       나라별 드라이버에 따른 다른 대응이 필요해서 Localization에 신경을 쓴 앱.<br><br>
    
-      <b>대구스마트시티 앱 개발</b><br><br>
+      <h5><b>대구스마트시티 앱 개발</b><br></h5>
       대구에서 특정 목적지로 이동할 때 하나의 앱에서 결제 후 모든 이동수단을 하이패스로 이용하여 사용자에게 편리함을 주는 목적으로 개발 진행 중인 정부과제.<br><br>
-      총 여섯 군데 업체와 협업을 하여 진행 중이며 초기에는 팀장님과 붙어서 거래처와 같이 개발을 진행하였지만, 현재는 혼자서도 진행 가능할 정도로 성장하여 안드로이드 앱 개발을 독단적으로 맡았음.<br>
-      실제 사용자 배포 시기는 21~22년으로 규모가 큰 프로젝트를 진행 중.<br><br>
-      
+      총 여섯 군데 업체와 협업을 하여 진행 중이며 초기에는 개발 리더와 붙어서 거래처와 같이 개발을 진행하였지만, 현재는 혼자서 진행 가능할 정도로 성장하여 안드로이드 앱 개발과 일정 조율 등을 독단적으로 맡았음. 실제 사용자 배포 시기는 22년으로 프로젝트를 진행 중.
+      JetPack Naviation Fragment 활용한 One Activity 구조 개발로 진행함.<br><br><br>
       
       <h3>공간소프트 • 2017.09 - 2019.06</h3><br>
       <b><a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass"><img src="https://lh3.googleusercontent.com/gHhg7xOV3dZa-uBcPVsnPiJ0ShdT2pbtW9Agil1pmnBcSco0g2Y-WmKpcrrh9pTSoZo=s360-rw" width=50px/></a></b>
       <b><a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription"><img src="https://lh3.googleusercontent.com/byB9hdQapkqd7jd4ncxGy69QQoh9Pxo82MViQn5u4fFtuB20_6wcELsK-IWZTeQ7_cA=s360-rw" width=50px/></a></b><br><br>
       <u>전자처방전(<b><a href="https://play.google.com/store/apps/details?id=com.edb.mobileprescription">E-Health</a>, <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.rxpass">처방패스</a></b>) 앱 개발.</u> <br><br>
-      EDB회사(약국프로그램 전문회사)와 협업이 진행되었고 EDB에서 기존에 처방전 저장 앱 개발이 되어 있던 앱 디자인 변경 및 약국과 처방전 전송이 가능하도록 신규 기능 개발. <br>
+      국내 약국 지분율 약 50%에서 사용되는 약국 관리 프로그램 전문회사와 협업을 하였고 기존에 처방전 저장 앱 개발이 되어 있던 앱 디자인 변경 및 약국과 처방전 전송이 가능하도록 기능 개발.<br>
       <b><a href="http://www.etnews.com/20180102000145">그 외에 서울대병원, 삼성서울병원 전자처방전 시범사업을 진행하였음.</a></b><br><br>
       
       <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.mmc.phwi"><img src="https://lh3.googleusercontent.com/d-6kZnr7wkhYQ6J0ApG5btTfMUpezDlDndlH2ALk2pnBMkFjzl8ZQvvILa5OF7tHCtlB=s360-rw" width=50px/></a>
       <a href="https://play.google.com/store/apps/details?id=kr.spacesoft.chahospital"><img src="https://lh3.googleusercontent.com/ekJs-AEYCriK-kdEmn5LeG-KIOsDqA6rziCFxVUJnSLVaTkEBxt7RWiEGEOla9f93A8=s360-rw" width=50px/></a><br><br>
       <u>종합병원 및 검진센터 솔루션 모바일 진료카드 앱 개발.</u> <br><br>
-      플레이스토어에 출시된 앱 기준 하이차(Hi-CHA) 강남차병원 여성의학연구소, 여성아이병원, 안성성모병원 검진센터, 좋은강안병원 건강증진센터, H+양지병원 건강증진센터, 혜민병원 건강증진센터, 에스엠 영상의학과 등 출시 및 안드로이드 앱 개발<br>
-      위의 앱들의 핵심 기능으로는 BLE를 사용하였음. 구체적인 플로우로는 근처에 병원 비콘을 감지하여 환자가 병원에 도착한지 체크한 뒤 도착 확인(진료 대기) 및 대기표 발권 기능이 활성화하는 기능 구현<br>
-      MVC 코드로 구성되어 있던 앱을 컨트롤러에 너무 많은 로직이 담겨있어서 MVP 패턴으로 비즈니스 로직을 나누어주는 리팩토링을 진행하였음. <br>
-      Java 기반, Glide, Retrofit 등의 라이브러리를 사용함<br><br>
+      플레이스토어에 출시된 앱 기준 하이차(Hi-CHA) 강남차병원 여성의학연구소, 여성아이병원, 안성성모병원 검진센터, 좋은강안병원 건강증진센터, H+양지병원 건강증진센터, 혜민병원 건강증진센터, 에스엠 영상의학과 등 안드로이드 앱 개발 및 출시<br>
+      BLE를 활용한 병원에서의 현재 위치 표시 기능, 원무과에 가지 않아도 도착 확인 및 대기표 발권 기능 구현.<br>
+      MVC 코드로 구성되어 있던 앱의 컨트롤러에 너무 많은 로직이 담겨있어서 MVP 패턴으로 비즈니스 로직을 나누어주는 리팩토링을 진행하였음.<br>
+      소스 형상 관리 시스템이 갖춰져 있지 않아 특정 이슈가 발생 했을 때 혹은 기능 도입 시 소스 추적이 힘들어서 깃을 도입하였음.<br>
+      비정상 종료 발생률이 60% 달하는 앱을 Firebase Crashlytics를 도입하여 1%로 낮추는 성과를 거둠.<br>
+      LeakCanary를 도입하여 총 13건의 메모리 누수를 잡아내며 앱 퍼포먼스를 크게 높임.<br><br>
       
       <h3>Toy Project</h3>      
-      <b><a href="https://play.google.com/store/apps/details?id=com.ksoft.airinfo.app"><img src="https://lh3.googleusercontent.com/HZIS5TIX1er6WhKaykKTMIOQnltmsjzba9ev4wONg5l6lUnvacKRirgqrRg0A6lytrM=s360-rw" width=50px/>공기정보</a><br></b>
+      <b><img src="https://lh3.googleusercontent.com/HZIS5TIX1er6WhKaykKTMIOQnltmsjzba9ev4wONg5l6lUnvacKRirgqrRg0A6lytrM=s360-rw" width=50px/>공기정보<br></b>
       <u>공기정보 • 2018.06 - 2018.09</u><br><br>
       심심해서 만들어본 개인 프로젝트. 실력 향상을 목적으로 개발을 진행하였음.<br>
-      이후에 유지 보수를 하면서 코드퀄리티 상승을 하려 했지만 개인적인 외주 및 연합 동아리 참가를 하게 되면서 유지 보수를 가끔씩 하는 수준으로 현재도 생각날 때마다 진행 중.<br>
       Kotlin 기반, MVVM, Dagger2, RX Java, LiveData 등의 라이브러리를 사용함.<br><br>
       
       <h3>Active</h3>           
@@ -94,10 +97,10 @@ skills:
         level: 100%
 
       - name: Java
-        level: 70%
+        level: 90%
 
       - name: JavaScript & Node.js
-        level: 50%
+        level: 40%
 
       - name: HTML5 & CSS
-        level: 45%
+        level: 20%
