@@ -57,7 +57,7 @@ projects:
       간단한 State를 체크하기 위해 네트워크 리소스를 많이 사용하던 문제점을 RealTimeDB를 활용하자는 의견을 내어서 서버의 리소스 부담을 줄임.<br>
       기존 RxJava, LiveData를 활용한 MVVM 아키텍처의 Repository 패턴을 도입하여 상황에 따른 불필요한 네트워크 리소스를 줄이는 작업을 진행.<br>
       Activity, ViewModel, LayoutXml 등 보일러 플레이트 코드들을 한번에 생성시켜주는 Android Studio Plugin 개발.<br>
-      ViewBinding, DataBinding 리팩토링 진행, Hilt를 활용한 의존성 주입, 새로운 피쳐의 테스트 주도 개발(TDD) 진행.<
+      ViewBinding, DataBinding 리팩토링 진행, Hilt를 활용한 의존성 주입, 새로운 피쳐의 테스트 주도 개발(TDD) 진행.<br><br>
       
       <b><a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada.driver"><img src="https://lh3.googleusercontent.com/0z2libnvW-TNQ8yVPggAQIOCy0I2n2cPdP80TNreyNqDmKaFBfeuXO2JH9JQ7EZdq-k=s360-rw" width=50px />TADA Driver</a></b><br>
       TADA 앱의 드라이버 용 버전.<br>
