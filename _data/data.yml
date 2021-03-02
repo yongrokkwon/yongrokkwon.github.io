@@ -52,14 +52,18 @@ projects:
     intro: >
       <h3>Easi6, MVL Foundation  • 2019.06 - Present</h3><br>
       <b><a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada"><img src="https://lh3.googleusercontent.com/rn5bGFg6rH_SDdwSBQyA3nfO_hBO6aKHbiS9VpTdrWBIpIHDDF4bOa3xRX2IN-yo0xU=s360-rw" width=50px />TADA</a></b><br><br>
-      싱가폴, 베트남, 캄보디아에서 서비스 중인 라이드 헤일링 앱. 2020년 한국 런칭 계획중이며 한국 앱의 경우 현재 필자가 독자적 개발 진행중임. (UI 변경 및 한국 법률에 따른 기술 스펙 변화등) <br>
+      싱가폴, 베트남, 캄보디아에서 서비스 중인 라이드 헤일링 앱.<br>
       제로 커미션과 MVL의 지급으로 다른 라이드 헤일링 서비스와 차별성이 있음.<br>
-      Kotlin 기반, MVVM 구조, Repository 패턴, Espresso와 okhttp3.mockwebserver를 이용한 UI 테스트, LiveData, Dagger2, Glide, RX Java, Leakcanary, Retrofit 등 다양한 라이브러리 사용.<br><br>
+      간단한 State를 체크하기 위해 네트워크 리소스를 많이 사용하던 문제점을 RealTimeDB를 활용하자는 의견을 내어서 서버의 리소스 부담을 줄임.<br>
+      기존 RxJava, LiveData를 활용한 MVVM 아키텍처의 Repository 패턴을 도입하여 상황에 따른 불필요한 네트워크 리소스를 줄이는 작업을 진행.<br>
+      Activity, ViewModel, LayoutXml 등 보일러 플레이트 코드들을 한번에 생성시켜주는 Android Studio Plugin 개발.<br>
+      ViewBinding, DataBinding 리팩토링 진행, Hilt를 활용한 의존성 주입, 새로운 피쳐의 테스트 주도 개발(TDD) 진행.<
       
       <b><a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada.driver"><img src="https://lh3.googleusercontent.com/0z2libnvW-TNQ8yVPggAQIOCy0I2n2cPdP80TNreyNqDmKaFBfeuXO2JH9JQ7EZdq-k=s360-rw" width=50px />TADA Driver</a></b><br>
       TADA 앱의 드라이버 용 버전.<br>
       floating icon, 위치 업데이트 및 가속도 측정을 위해서 Service를 더 중점적으로 다룬 앱.<br>
-      나라별 드라이버에 따른 다른 대응이 필요해서 Localization에 신경을 쓴 앱.<br><br>
+      나라별 드라이버에 따른 다른 대응이 필요해서 Localization에 신경을 쓴 앱.<br>
+      BLE를 활용한 앱에서 전기 차 시동 걸어주는 기능 개발.<br>
    
       <h5><b>대구스마트시티 앱 개발</b><br></h5>
       대구에서 특정 목적지로 이동할 때 하나의 앱에서 결제 후 모든 이동수단을 하이패스로 이용하여 사용자에게 편리함을 주는 목적으로 개발 진행 중인 정부과제.<br><br>
