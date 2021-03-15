@@ -14,7 +14,7 @@ I have made this into a Jekyll Theme. Checkout the live demo [here](https://webj
     <th>Mobile</th>
   </tr>
   <tr>
-    <td>
+    <td> 
         <img src="https://webjeda.com/online-cv/assets/images/desktop.png?raw=true" width="600"/>
     </td>
     <td>
