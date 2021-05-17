@@ -21,10 +21,10 @@ sidebar:
 career-profile:
     title: Intro
     summary: |
-      18년도부터 안드로이드 개발자로 시작하여 SI 병원 앱 개발과 전자처방전 정부 과제를 진행해보았습니다.<br>
-      그 이후 싱가폴, 베트남, 캄보디아 3개국에서 사용 중인 TADA 앱을 개발 중입니다.<br>
-      개발자가 유지 보수만 하게 된다면 기존에 있는 프로젝트의 프레임 워크에 익숙해져서 더 나은 방향의 개발 방식을 생각 하지 않게 된다는 생각을 가지고 있어서 유지 보수만 해보는 것이 아닌 적극적으로 신규 프로젝트에 참여하려고 합니다.<br>
-      직장 외에서도 사이드 프로젝트와 개발 동아리 모임 등을 중요하게 생각하며 참여합니다.
+      18년에 안드로이드 개발을 시작하여 SI 병원 앱 개발과 전자처방전 정부 과제를 진행해보았습니다.<br>
+      이직 후에는 싱가폴, 베트남, 캄보디아 3개국에서 사용 중인 TADA 앱을 개발해보았고, 회사에서 마음이 맞는 PM 한분과 프리랜서로 일해보자는 이야기가 나와서 현재는 지하철/버스 단말기 BLE 관련 안드로이드 앱을 외주로 프리랜서로 일을 하고 있습니다.<br>
+      <br>
+      새롭게 꾸준히 나오는 기술들이 나오는 데에는 이유가 있다고 생각합니다. 그래서 개발자의 퍼포먼스 향상과 앱의 에러를 최소화 하기 위한 최신 트렌드를 파악하며 적극적으로 학습하여 도입하려고 노력합니다.
 education:
     - degree: 정보콘텐츠학과
       university: 광운대학교
@@ -36,7 +36,7 @@ education:
       details: 
 experiences:
     - role: Android Software Engineer
-      time: 2019.06 - Present
+      time: 2019.06 - 2021.03
       company: Easi6, MVL Foundation
       details: |
         MVL이란 블록체인 생태계를 구축하고자 그 첫 시작으로 TADA라는 앱을 싱가폴을 시작으로 베트남, 캄보디아에서 서비스 중인 앱. (승객 50만명 / 운전기사 7만명)<br><br>
@@ -50,7 +50,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      <h3>Easi6, MVL Foundation  • 2019.06 - Present</h3><br>
+      <h3>Easi6, MVL Foundation  • 2019.06 - 2021.03</h3><br>
       <b><a href="https://play.google.com/store/apps/details?id=io.mvlchain.tada"><img src="https://lh3.googleusercontent.com/rn5bGFg6rH_SDdwSBQyA3nfO_hBO6aKHbiS9VpTdrWBIpIHDDF4bOa3xRX2IN-yo0xU=s360-rw" width=50px />TADA</a></b><br><br>
       싱가폴, 베트남, 캄보디아에서 서비스 중인 라이드 헤일링 앱.<br>
       제로 커미션과 MVL의 지급으로 다른 라이드 헤일링 서비스와 차별성이 있음.<br>
