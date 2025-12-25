@@ -87,6 +87,7 @@ const sfMonoNormal = createFontFaces(sfMono);
 const sfMonoItalic = createFontFaces(sfMono, 'italic');
 
 const Fonts = css`
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
   ${calibreNormal + calibreItalic + sfMonoNormal + sfMonoItalic}
 `;
 

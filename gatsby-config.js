@@ -3,12 +3,12 @@ const config = require('./src/config');
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: '권용록 | Android Software Engineer',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      '권용록은 Android 앱을 개발하는 소프트웨어 엔지니어입니다. TADA, 전자처방전 등 다양한 앱을 개발한 경험이 있습니다.',
     siteUrl: 'https://yongrokkwon.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '', // TODO: Twitter 계정 추가 시 설정
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: '권용록 | Android Software Engineer',
+        short_name: '권용록',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
