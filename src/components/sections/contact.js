@@ -55,17 +55,17 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">다음 단계는?</h2>
+      <h2 className="numbered-heading overline">What's Next?</h2>
 
-      <h2 className="title">연락주세요</h2>
+      <h2 className="title">Get In Touch</h2>
 
       <p>
-        현재 새로운 기회를 찾고 있습니다. 궁금한 점이 있거나 인사를 나누고 싶으시다면 언제든지
-        연락주세요!
+        I'm currently looking for new opportunities. Whether you have a question or just want to say
+        hi, feel free to reach out!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        메일 보내기
+        Say Hello
       </a>
     </StyledContactSection>
   );

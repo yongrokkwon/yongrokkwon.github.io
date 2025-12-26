@@ -186,6 +186,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 10px 0 40px;
     width: 100%;
     font-size: clamp(26px, 5vw, var(--fz-heading));
+    font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     white-space: nowrap;
 
     &:before {
@@ -196,7 +197,7 @@ const GlobalStyle = createGlobalStyle`
       margin-right: 10px;
       color: var(--green);
       font-family: var(--font-mono);
-      font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
+      font-size: clamp(var(--fz-md), 3vw, 20px);
       font-weight: 400;
 
       @media (max-width: 480px) {

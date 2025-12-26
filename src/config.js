@@ -15,19 +15,19 @@ module.exports = {
 
   navLinks: [
     {
-      name: '소개',
+      name: 'About',
       url: '/#about',
     },
     {
-      name: '경력',
+      name: 'Experience',
       url: '/#jobs',
     },
     {
-      name: '프로젝트',
+      name: 'Work',
       url: '/#projects',
     },
     {
-      name: '연락처',
+      name: 'Contact',
       url: '/#contact',
     },
   ],

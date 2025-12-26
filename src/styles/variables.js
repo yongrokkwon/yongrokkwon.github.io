@@ -19,7 +19,7 @@ const variables = css`
 
     --font-sans: 'Nanum Gothic', 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system,
       system-ui, sans-serif;
-    --font-mono: 'Nanum Gothic', 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 
     --fz-xxs: 12px;
     --fz-xs: 13px;
