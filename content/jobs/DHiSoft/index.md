@@ -1,15 +1,15 @@
 ---
 date: '2024-02-01'
-title: 'Mobile Engineer'
-company: 'D-Hi Soft (디하이소프트)'
+title: 'Lead Mobile'
+company: '디하이소프트'
 location: 'Seoul, Korea'
 range: '2023.06 - 2024.02'
 url: ''
 ---
 
-- [Welluga] Flutter 기반 피트니스 예약 플랫폼 개발
-  - 생산성 비교 분석을 통해 기술적 타당성 입증 및 Flutter 도입 주도
-  - 단일 코드베이스(Single Codebase) 구축을 통한 생산성 효율 극대화
-- [왔다 (MSS 앱)] 중소벤처기업부 앱 Native(Android/iOS) 개발
-  - Clean Architecture 적용 및 성능 최적화
-  - 1인 개발의 확장성 리스크(Bus Factor)를 제어하는 아키텍처 설계
+- [Welluga] Flutter 기반 피트니스 예약 플랫폼 출시
+- 초기 기획 단계에서 Native(2인/2개월) 대비 Cross-Platform(1인/1.5개월)의 생산성을 비교 분석한 기술 검토 보고서를 바탕으로 기술 도입의 타당성을 입증하고 도입을 주도.
+- UI, 도메인, 데이터 레이어를 철저히 분리함으로써, 추후 팀원 충원 시 빠른 온보딩이 가능하고 기능 확장에 유연하게 대처할 수 있는 기반 마련.
+- [왔다] 중소벤처기업부 앱 Native(Android/iOS) 출시
+- Clean Architecture 및 MVVM 패턴 기반의 공통 아키텍처 템플릿을 솔루션화하여, 신규 프로젝트 투입 시 빠른 초기 세팅과 일관된 구조 적용 가능하도록 표준화.
+- 당시 AI 도입에 소극적이었던 팀 분위기를 쇄신하고 단순 문법/컨벤션 검토에 낭비되는 리소스를 절감하고자 ChatGPT를 '가상의 페어 프로그래머'로 활용하는 AI 코드 리뷰 프로세스를 정립 및 전파.
