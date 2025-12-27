@@ -1,5 +1,5 @@
 ---
-date: '2023-08-01'
+date: '2024-11-01'
 title: 'Welluga (웰루가)'
 github: ''
 external: ''

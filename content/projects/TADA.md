@@ -1,5 +1,5 @@
 ---
-date: '2021-03-01'
+date: '2024-10-01'
 title: 'TADA'
 github: ''
 external: 'https://play.google.com/store/apps/details?id=io.mvlchain.tada'
