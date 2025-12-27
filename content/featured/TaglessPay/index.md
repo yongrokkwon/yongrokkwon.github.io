@@ -4,6 +4,7 @@ title: '태그리스 페이'
 cover: './cover.png'
 github: ''
 external: 'https://play.google.com/store/apps/details?id=com.tagless'
+cta: ''
 tech:
   - Kotlin
   - BLE

@@ -4,6 +4,7 @@ title: 'TADA'
 cover: './cover.png'
 github: ''
 external: 'https://tada.global'
+cta: ''
 tech:
   - Kotlin
   - Clean Architecture
