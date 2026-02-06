@@ -37,7 +37,7 @@ const Side = ({ children, isHome, orientation }) => {
   }, []);
 
   return (
-    <StyledSideElement orientation={orientation}>
+    <StyledSideElement orientation={orientation} className="side-element">
       {prefersReducedMotion ? (
         <>{children}</>
       ) : (

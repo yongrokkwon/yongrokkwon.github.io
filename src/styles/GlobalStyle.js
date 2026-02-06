@@ -157,6 +157,98 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  /* fullpage.js 스타일 */
+  #fullpage-wrapper {
+    .section {
+      padding: 0;
+      margin: 0;
+    }
+
+    .section-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 0 150px;
+
+      @media (max-width: 1080px) {
+        padding: 0 100px;
+      }
+      @media (max-width: 768px) {
+        padding: 0 50px;
+      }
+      @media (max-width: 480px) {
+        padding: 0 25px;
+      }
+
+      > section {
+        width: 100%;
+        max-width: 1000px;
+        padding: 50px 0;
+      }
+    }
+
+    /* 첫 번째 섹션(Hero)은 nav 높이 고려 */
+    .section:first-child .section-content {
+      padding-top: var(--nav-height);
+    }
+
+    /* Featured 섹션(4번째)만 스크롤 허용, 나머지는 스크롤 차단 */
+    .section:not(:nth-child(4)) .fp-overflow {
+      overflow: hidden !important;
+    }
+  }
+
+  /* fullpage 네비게이션 도트 스타일 */
+  #fp-nav {
+    z-index: 10;
+
+    ul li a span,
+    ul li a.active span {
+      background: var(--green);
+    }
+
+    ul li a span {
+      width: 8px;
+      height: 8px;
+      margin: -4px 0 0 -4px;
+      opacity: 0.5;
+      transition: var(--transition);
+    }
+
+    ul li a.active span,
+    ul li:hover a span {
+      width: 10px;
+      height: 10px;
+      margin: -5px 0 0 -5px;
+      opacity: 1;
+    }
+
+    ul li .fp-tooltip {
+      font-family: var(--font-mono);
+      font-size: var(--fz-xs);
+      color: var(--green);
+    }
+  }
+
+  /* scrollOverflow 스크롤바 스타일 */
+  .fp-overflow {
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-slate) transparent;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--dark-slate);
+      border-radius: 4px;
+    }
+  }
+
   h1,
   h2,
   h3,
