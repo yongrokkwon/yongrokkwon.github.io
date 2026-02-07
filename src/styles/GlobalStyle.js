@@ -194,8 +194,13 @@ const GlobalStyle = createGlobalStyle`
       padding-top: var(--nav-height);
     }
 
-    /* Featured 섹션(4번째)만 스크롤 허용, 나머지는 스크롤 차단 */
-    .section:not(:nth-child(4)) .fp-overflow {
+    /* 첫 번째 섹션 내용이 100vh를 초과하여 스크롤이 생기는 문제 방지 (하단 패딩 제거) */
+    .section:first-child .section-content > section {
+      padding-bottom: 0;
+    }
+
+    /* Featured(4번째), Projects(5번째) 섹션 스크롤 허용, 나머지는 스크롤 차단 */
+    .section:not(:nth-child(4)):not(:nth-child(5)) .fp-overflow {
       overflow: hidden !important;
     }
   }
