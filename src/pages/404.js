@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import PropTypes from 'prop-types';
@@ -70,5 +70,16 @@ const NotFoundPage = ({ location }) => {
 NotFoundPage.propTypes = {
   location: PropTypes.object.isRequired,
 };
+
+// Dummy query to avoid "Couldn't find temp query result" error
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
 
 export default NotFoundPage;
