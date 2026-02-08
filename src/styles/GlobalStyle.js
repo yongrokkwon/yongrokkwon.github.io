@@ -199,8 +199,9 @@ const GlobalStyle = createGlobalStyle`
       padding-bottom: 0;
     }
 
-    /* Featured(4번째), Projects(5번째) 섹션 스크롤 허용, 나머지는 스크롤 차단 */
-    .section:not(:nth-child(4)):not(:nth-child(5)) .fp-overflow {
+    /* Hero(1번째), Featured(4번째), Projects(5번째) 섹션 스크롤 허용, 나머지는 스크롤 차단 */
+    /* Hero는 내부 스크롤이 없지만 overflow: hidden 시 휠 이벤트가 fullpage.js에 전달되지 않음 */
+    .section:not(:first-child):not(:nth-child(4)):not(:nth-child(5)) .fp-overflow {
       overflow: hidden !important;
     }
   }
