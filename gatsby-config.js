@@ -3,7 +3,7 @@ const config = require('./src/config');
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: '권용록 | Android Software Engineer',
+    title: '권용록 | Software Engineer',
     description:
       '권용록은 Android 앱을 개발하는 소프트웨어 엔지니어입니다. TADA, 전자처방전 등 다양한 앱을 개발한 경험이 있습니다.',
     siteUrl: 'https://yongrokkwon.github.io', // No trailing slash allowed!
@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: '권용록 | Android Software Engineer',
+        name: '권용록 | Software Engineer',
         short_name: '권용록',
         start_url: '/',
         background_color: config.colors.darkNavy,

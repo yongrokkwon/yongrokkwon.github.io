@@ -10,7 +10,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a personal portfolio website built with Gatsby v4, featuring a full-page scrolling experience powered by `@fullpage/react-fullpage`. The site showcases work experience, featured projects, and other projects, and is deployed to GitHub Pages.
 
-The site is a Korean-language portfolio for an Android Software Engineer (권용록 / Yongrok Kwon).
+The site is a Korean-language portfolio for an Software Engineer (권용록 / Yongrok Kwon).
 
 ## Development Commands
 

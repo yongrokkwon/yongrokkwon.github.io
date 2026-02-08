@@ -199,8 +199,22 @@ const GlobalStyle = createGlobalStyle`
       padding-bottom: 0;
     }
 
-    /* Hero(1번째), Featured(4번째), Projects(5번째) 섹션 스크롤 허용, 나머지는 스크롤 차단 */
-    /* Hero는 내부 스크롤이 없지만 overflow: hidden 시 휠 이벤트가 fullpage.js에 전달되지 않음 */
+    /* Hero(1번째): 콘텐츠 높이를 뷰포트에 맞춰 내부 스크롤 방지 */
+    .section:first-child .fp-overflow {
+      overflow: hidden !important;
+    }
+    
+    .section:first-child .section-content {
+      max-height: 100vh;
+      overflow: hidden;
+    }
+    
+    .section:first-child .section-content > section {
+      max-height: calc(100vh - var(--nav-height));
+      overflow: hidden;
+    }
+
+    /* Featured(4번째), Projects(5번째) 제외한 나머지 섹션은 스크롤 차단 */
     .section:not(:first-child):not(:nth-child(4)):not(:nth-child(5)) .fp-overflow {
       overflow: hidden !important;
     }

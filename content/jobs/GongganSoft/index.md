@@ -1,6 +1,6 @@
 ---
 date: '2019-06-01'
-title: 'Android Software Engineer'
+title: 'Software Engineer'
 company: '공간소프트 (현 케어랩스)'
 location: 'Seoul, Korea'
 range: '2017.09 - 2019.06'
