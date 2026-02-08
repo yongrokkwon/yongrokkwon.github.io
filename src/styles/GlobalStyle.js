@@ -218,6 +218,13 @@ const GlobalStyle = createGlobalStyle`
     .section:not(:first-child):not(:nth-child(4)):not(:nth-child(5)) .fp-overflow {
       overflow: hidden !important;
     }
+    
+    /* Featured(4번째), Projects(5번째) 섹션은 콘텐츠가 많으므로 상단 정렬 */
+    .section:nth-child(4) .section-content,
+    .section:nth-child(5) .section-content {
+      justify-content: flex-start;
+      padding-top: var(--nav-height);
+    }
   }
 
   /* fullpage 네비게이션 도트 스타일 */
