@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: '권용록 | Software Engineer',
     description:
-      '권용록은 Android 앱을 개발하는 소프트웨어 엔지니어입니다. TADA, 전자처방전 등 다양한 앱을 개발한 경험이 있습니다.',
+      '모바일 중심 7년차 소프트웨어 엔지니어. TADA, 태그리스 페이 등 대규모 서비스 개발 경험을 바탕으로 백엔드·인프라까지 아우릅니다.',
     siteUrl: 'https://yongrokkwon.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '', // TODO: Twitter 계정 추가 시 설정
