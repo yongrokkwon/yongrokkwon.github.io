@@ -1,10 +1,10 @@
 ---
 date: '2019-06-01'
-title: 'Software Engineer'
+title: 'Android Engineer'
 company: '공간소프트 (현 케어랩스)'
 location: 'Seoul, Korea'
 range: '2017.09 - 2019.06'
-url: ''
+url: 'https://www.carelabs.co.kr/'
 ---
 
 - [전자처방전] E-Health, 처방패스 Android 앱 신규 구축

@@ -1,10 +1,10 @@
 ---
 date: '2024-02-01'
-title: 'Lead Mobile'
+title: 'Lead Mobile Engineer'
 company: '디하이소프트'
 location: 'Seoul, Korea'
 range: '2023.06 - 2024.02'
-url: ''
+url: 'https://www.dihisoft.kr/'
 ---
 
 - [Welluga] Flutter 기반 피트니스 예약 플랫폼 출시

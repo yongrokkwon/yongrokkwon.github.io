@@ -5,6 +5,7 @@ company: '프리랜서'
 location: 'Remote / Seoul'
 range: '2021.03 - 2022.12'
 url: ''
+# TODO Add Linkedin Link
 ---
 
 - [병무청] 병역의무자 여비 자동 산정 시스템 구축
