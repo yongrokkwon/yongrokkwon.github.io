@@ -1,5 +1,5 @@
 ---
-date: '2019-01-01'
+date: '2021-03-01'
 title: 'TADA'
 cover: './cover.png'
 github: ''
@@ -13,4 +13,4 @@ tech:
   - TDD
 ---
 
-싱가폴, 베트남, 캄보디아 3개국에서 서비스 중인 라이드 헤일링 앱입니다. 100만+ 트래픽을 처리하며, Clean Architecture로 리팩토링하고 Firebase 실시간 DB를 도입하여 배차 속도를 개선했습니다.
+싱가폴, 베트남, 캄보디아 3개국에서 서비스 중인 라이드 헤일링 앱입니다. 100만+ 다운로드와 1억+ MAU 트래픽을 처리하며, Clean Architecture 리팩토링 및 Firebase Realtime DB 도입등 적극적인 기술 개발에 관여하며 개선했습니다.
