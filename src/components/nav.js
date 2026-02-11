@@ -169,7 +169,7 @@ const StyledNavCta = styled.div`
 `;
 
 const Nav = ({ isHome }) => {
-  const [isMounted, setIsMounted] = useState(!isHome);
+  const [isMounted, setIsMounted] = useState(false);
   const scrollDirection = useScrollDirection('down');
   const [scrolledToTop, setScrolledToTop] = useState(true);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -180,6 +180,18 @@ const Nav = ({ isHome }) => {
   };
 
   useEffect(() => {
+    if (!isHome) {
+      setIsMounted(true);
+      if (typeof window !== 'undefined') {
+        window.addEventListener('scroll', handleScroll);
+      }
+      return () => {
+        if (typeof window !== 'undefined') {
+          window.removeEventListener('scroll', handleScroll);
+        }
+      };
+    }
+
     if (prefersReducedMotion) {
       return;
     }
@@ -231,7 +243,7 @@ const Nav = ({ isHome }) => {
   const NavCtaButtons = (
     <StyledNavCta>
       <AnimatePresence>
-        {!isHeroVisible && (
+        {isMounted && !isHeroVisible && (
           <motion.div layoutId="hero-contact">
             <a
               className="nav-contact"
@@ -244,7 +256,7 @@ const Nav = ({ isHome }) => {
         )}
       </AnimatePresence>
       <AnimatePresence>
-        {!isHeroVisible && (
+        {isMounted && !isHeroVisible && (
           <motion.div layoutId="lang-toggle">
             <button
               className="nav-lang-toggle"
