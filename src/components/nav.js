@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled, { css } from 'styled-components';
-
+import { motion, AnimatePresence } from 'framer-motion';
 import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
@@ -242,20 +242,31 @@ const Nav = ({ isHome }) => {
 
   const NavCtaButtons = (
     <StyledNavCta>
-      {!isHeroVisible && (
-        <a
-          className="nav-contact"
-          href="mailto:yongrok.kwon@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer">
-          {t('hero.contact')}
-        </a>
-      )}
-      {!isHeroVisible && (
-        <button className="nav-lang-toggle" onClick={toggleLanguage} aria-label="Toggle language">
-          {language === 'ko' ? 'EN' : 'KO'}
-        </button>
-      )}
+      <AnimatePresence>
+        {isMounted && !isHeroVisible && (
+          <motion.div layoutId="hero-contact">
+            <a
+              className="nav-contact"
+              href="mailto:yongrok.kwon@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer">
+              {t('hero.contact')}
+            </a>
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <AnimatePresence>
+        {isMounted && !isHeroVisible && (
+          <motion.div layoutId="lang-toggle">
+            <button
+              className="nav-lang-toggle"
+              onClick={toggleLanguage}
+              aria-label="Toggle language">
+              {language === 'ko' ? 'EN' : 'KO'}
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </StyledNavCta>
   );
 
