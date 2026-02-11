@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { useLanguage } from '../contexts/LanguageContext';
 
 // SSR 호환성: 클라이언트에서만 fullpage 로드
 const FullPageWrapper = ({ children, anchors }) => {
   const [FullpageComponent, setFullpageComponent] = React.useState(null);
   const [error, setError] = React.useState(null);
+  const { setHeroVisible } = useLanguage();
 
   React.useEffect(() => {
     // SSR에서는 실행되지 않음
@@ -18,6 +20,10 @@ const FullPageWrapper = ({ children, anchors }) => {
         setError(err);
       });
   }, []);
+
+  const handleLeave = (origin, destination) => {
+    setHeroVisible(destination.index === 0);
+  };
 
   // 에러 발생 시
   if (error) {
@@ -43,6 +49,7 @@ const FullPageWrapper = ({ children, anchors }) => {
       easingcss3={'ease-out'}
       fixedElements={'#nav-header, .side-element'}
       credits={{ enabled: false }}
+      onLeave={handleLeave}
       // 반응형: 768px 이하에서 fullpage 비활성화
       responsiveWidth={768}
       render={() => (

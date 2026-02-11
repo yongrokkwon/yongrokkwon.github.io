@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -116,6 +117,7 @@ const StyledPic = styled.div`
 const About = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
+  const { t } = useLanguage();
 
   useEffect(() => {
     if (prefersReducedMotion) {
@@ -138,7 +140,7 @@ const About = () => {
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">{t('about.heading')}</h2>
 
       <div className="inner">
         <StyledText>
@@ -147,25 +149,25 @@ const About = () => {
               <a href="https://tada.global/" target="_blank" rel="noreferrer">
                 TADA
               </a>
-              (100만+),{' '}
+              {t('about.p1.middle')}
               <a
                 href="https://play.google.com/store/apps/details?id=com.tagless"
                 target="_blank"
                 rel="noreferrer">
                 Tagless Pay
               </a>
-              (10만+) 등에서 Android·iOS·Flutter를 개발했고, 병무청 프로젝트에서는 여비 자동
-              산정·진료 정보 연동 시스템을 설계했습니다. 모바일 6년 경력을 기반으로, 현재는
-              스타트업을 공동창업하여 <strong>웹, 백엔드, 인프라 전반</strong>을 직접 설계하고
-              있습니다.
+              {t('about.p1.suffix')}
+              <strong>{t('about.p1.highlight')}</strong>
+              {t('about.p1.end')}
             </p>
 
             <p>
-              AI 도구를 적극 활용한 생산성 극대화로 1인 개발의 한계를 넘어서고 있으며, 모바일
-              개발자에서 <strong>시스템 아키텍트</strong>로 영역을 확장하고 있습니다.
+              {t('about.p2')}
+              <strong>{t('about.p2.highlight')}</strong>
+              {t('about.p2.end')}
             </p>
 
-            <p>최근 주로 사용하는 기술들입니다:</p>
+            <p>{t('about.p3')}</p>
           </div>
 
           <ul className="skills-list">

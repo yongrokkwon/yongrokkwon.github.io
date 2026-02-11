@@ -1,4 +1,5 @@
 ---
+lang: 'ko'
 date: '2022-12-01'
 title: 'Android & System Engineer'
 company: '프리랜서'

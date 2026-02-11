@@ -6,6 +6,7 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { Icon } from '@components/icons';
 import { usePrefersReducedMotion } from '@hooks';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const StyledProjectsSection = styled.section`
   display: flex;
@@ -182,6 +183,7 @@ const Projects = () => {
               tech
               github
               external
+              lang
             }
             html
           }
@@ -189,6 +191,8 @@ const Projects = () => {
       }
     }
   `);
+
+  const { language, t } = useLanguage();
 
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
@@ -207,7 +211,11 @@ const Projects = () => {
   }, []);
 
   const GRID_LIMIT = 6;
-  const projects = data.projects.edges.filter(({ node }) => node);
+  const projects = data.projects.edges.filter(({ node }) => {
+    if (!node) {return false;}
+    const lang = node.frontmatter.lang || 'ko';
+    return lang === language;
+  });
   const firstSix = projects.slice(0, GRID_LIMIT);
   const projectsToShow = showMore ? projects : firstSix;
 
@@ -265,10 +273,10 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>{t('projects.heading')}</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+        {t('projects.archive')}
       </Link>
 
       <ul className="projects-grid">
@@ -303,7 +311,7 @@ const Projects = () => {
       </ul>
 
       <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
+        {showMore ? t('projects.showLess') : t('projects.showMore')}
       </button>
     </StyledProjectsSection>
   );

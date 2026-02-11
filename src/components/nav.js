@@ -3,11 +3,13 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled, { css } from 'styled-components';
+import { motion, AnimatePresence } from 'framer-motion';
 import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
 import { IconLogo, IconHex } from '@components/icons';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -142,11 +144,27 @@ const StyledLinks = styled.div`
       }
     }
   }
+`;
 
-  .resume-button {
+const StyledNavCta = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 15px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  .nav-contact {
     ${({ theme }) => theme.mixins.smallButton};
-    margin-left: 15px;
     font-size: var(--fz-xs);
+  }
+
+  .nav-lang-toggle {
+    ${({ theme }) => theme.mixins.smallButton};
+    font-size: var(--fz-xs);
+    cursor: pointer;
   }
 `;
 
@@ -155,6 +173,7 @@ const Nav = ({ isHome }) => {
   const scrollDirection = useScrollDirection('down');
   const [scrolledToTop, setScrolledToTop] = useState(true);
   const prefersReducedMotion = usePrefersReducedMotion();
+  const { language, setLanguage, t, isHeroVisible } = useLanguage();
 
   const handleScroll = () => {
     setScrolledToTop(window.pageYOffset < 50);
@@ -176,6 +195,10 @@ const Nav = ({ isHome }) => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'ko' ? 'en' : 'ko');
+  };
 
   const timeout = isHome ? loaderDelay : 0;
   const fadeClass = isHome ? 'fade' : '';
@@ -205,10 +228,34 @@ const Nav = ({ isHome }) => {
     </div>
   );
 
-  const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-      Resume
-    </a>
+  const NavCtaButtons = (
+    <StyledNavCta>
+      <AnimatePresence>
+        {!isHeroVisible && (
+          <motion.div layoutId="hero-contact">
+            <a
+              className="nav-contact"
+              href="mailto:yongrok.kwon@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer">
+              {t('hero.contact')}
+            </a>
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <AnimatePresence>
+        {!isHeroVisible && (
+          <motion.div layoutId="lang-toggle">
+            <button
+              className="nav-lang-toggle"
+              onClick={toggleLanguage}
+              aria-label="Toggle language">
+              {language === 'ko' ? 'EN' : 'KO'}
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </StyledNavCta>
   );
 
   return (
@@ -227,7 +274,7 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              {NavCtaButtons}
             </StyledLinks>
 
             <Menu />
@@ -261,7 +308,7 @@ const Nav = ({ isHome }) => {
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                     <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                      {ResumeLink}
+                      {NavCtaButtons}
                     </div>
                   </CSSTransition>
                 )}

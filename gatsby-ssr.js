@@ -3,5 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
+import React from 'react';
+import { LanguageProvider } from './src/contexts/LanguageContext';
 
- // You can delete this file if you're not using it
+export const wrapRootElement = ({ element }) => <LanguageProvider>{element}</LanguageProvider>;

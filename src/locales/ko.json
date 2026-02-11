@@ -1,0 +1,39 @@
+{
+  "hero.greeting": "Hi, my name is",
+  "hero.name": "권용록 (Yongrok Kwon)",
+  "hero.subtitle": "Mobile-first Software Engineer.",
+  "hero.description.prefix": "",
+  "hero.description.tada": "TADA(100만+)",
+  "hero.description.tagless": "Tagless Pay(10만+)",
+  "hero.description.watta": "왔다(5만+)",
+  "hero.description.suffix": " 등 다양한 서비스를 만들어왔습니다. 현재는 스타트업을 공동창업하여 AI를 활용해 웹, 백엔드, 인프라 전반을 설계 및 구축하며 1인 개발의 한계를 넘어서고 있습니다.",
+  "hero.contact": "Contact",
+
+  "about.heading": "About Me",
+  "about.p1.prefix": "",
+  "about.p1.middle": "(100만+), ",
+  "about.p1.suffix": "(10만+) 등에서 Android·iOS·Flutter를 개발했고, 병무청 프로젝트에서는 여비 자동 산정·진료 정보 연동 시스템을 설계했습니다. 모바일 6년 경력을 기반으로, 현재는 스타트업을 공동창업하여 ",
+  "about.p1.highlight": "웹, 백엔드, 인프라 전반",
+  "about.p1.end": "을 직접 설계하고 있습니다.",
+  "about.p2": "AI 도구를 적극 활용한 생산성 극대화로 1인 개발의 한계를 넘어서고 있으며, 모바일 개발자에서 ",
+  "about.p2.highlight": "시스템 아키텍트",
+  "about.p2.end": "로 영역을 확장하고 있습니다.",
+  "about.p3": "최근 주로 사용하는 기술들입니다:",
+
+  "jobs.heading": "Where I've Worked",
+
+  "featured.heading": "Some Things I've Built",
+  "featured.overline": "Featured Project",
+
+  "projects.heading": "Other Noteworthy Projects",
+  "projects.archive": "view the archive",
+  "projects.showMore": "Show More",
+  "projects.showLess": "Show Less",
+
+  "contact.overline": "What's Next?",
+  "contact.heading": "Get In Touch",
+  "contact.description": "새로운 기회를 찾고 있습니다. 질문이 있으시거나 인사를 나누고 싶으시다면, 편하게 연락주세요!",
+  "contact.button": "Say Hello",
+
+  "nav.resume": "Resume"
+}

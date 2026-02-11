@@ -1,4 +1,5 @@
 ---
+lang: 'ko'
 date: '2022-12-01'
 title: '태그리스 페이'
 cover: './cover.png'

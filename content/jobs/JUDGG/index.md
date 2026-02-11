@@ -1,4 +1,5 @@
 ---
+lang: 'ko'
 date: '2025-12-31'
 title: 'Co-founder & CTO'
 company: 'JUDGG'

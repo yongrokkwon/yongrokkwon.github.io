@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { navLinks } from '@config';
 import { KEY_CODES } from '@utils';
 import { useOnClickOutside } from '@hooks';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const StyledMenu = styled.div`
   display: none;
@@ -155,10 +156,34 @@ const StyledSidebar = styled.aside`
   }
 `;
 
+const StyledMobileLangToggle = styled.button`
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: 1px solid var(--green);
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: var(--fz-sm);
+  cursor: pointer;
+  transition: var(--transition);
+
+  &:hover,
+  &:focus {
+    background-color: var(--green-tint);
+    outline: none;
+  }
+`;
+
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { language, setLanguage, t } = useLanguage();
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'ko' ? 'en' : 'ko');
+  };
 
   const buttonRef = useRef(null);
   const navRef = useRef(null);
@@ -267,8 +292,12 @@ const Menu = () => {
             )}
 
             <a href="/resume.pdf" className="resume-link">
-              Resume
+              {t('nav.resume')}
             </a>
+
+            <StyledMobileLangToggle onClick={toggleLanguage} aria-label="Toggle language">
+              {language === 'ko' ? 'EN' : 'KO'}
+            </StyledMobileLangToggle>
           </nav>
         </StyledSidebar>
       </div>

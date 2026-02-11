@@ -1,0 +1,39 @@
+{
+  "hero.greeting": "Hi, my name is",
+  "hero.name": "Yongrok Kwon",
+  "hero.subtitle": "Mobile-first Software Engineer.",
+  "hero.description.prefix": "",
+  "hero.description.tada": "TADA(1M+)",
+  "hero.description.tagless": "Tagless Pay(100K+)",
+  "hero.description.watta": "Watta(50K+)",
+  "hero.description.suffix": " — I've built various services across mobile platforms. Currently co-founding a startup, leveraging AI to design and build web, backend, and infrastructure systems, pushing beyond the limits of solo development.",
+  "hero.contact": "Contact",
+
+  "about.heading": "About Me",
+  "about.p1.prefix": "",
+  "about.p1.middle": "(1M+), ",
+  "about.p1.suffix": "(100K+) and more, developing Android, iOS, and Flutter apps. I also designed automated travel expense calculation and medical record integration systems for the Military Manpower Administration. With 6+ years of mobile experience, I'm now co-founding a startup, directly architecting ",
+  "about.p1.highlight": "web, backend, and infrastructure",
+  "about.p1.end": " systems.",
+  "about.p2": "By actively leveraging AI tools to maximize productivity, I'm pushing beyond the limits of solo development, expanding my role from mobile developer to ",
+  "about.p2.highlight": "systems architect",
+  "about.p2.end": ".",
+  "about.p3": "Here are some technologies I've been working with recently:",
+
+  "jobs.heading": "Where I've Worked",
+
+  "featured.heading": "Some Things I've Built",
+  "featured.overline": "Featured Project",
+
+  "projects.heading": "Other Noteworthy Projects",
+  "projects.archive": "view the archive",
+  "projects.showMore": "Show More",
+  "projects.showLess": "Show Less",
+
+  "contact.overline": "What's Next?",
+  "contact.heading": "Get In Touch",
+  "contact.description": "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!",
+  "contact.button": "Say Hello",
+
+  "nav.resume": "Resume"
+}

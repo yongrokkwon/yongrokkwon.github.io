@@ -1,4 +1,5 @@
 ---
+lang: 'ko'
 date: '2024-02-01'
 title: 'Lead Mobile Engineer'
 company: '디하이소프트'

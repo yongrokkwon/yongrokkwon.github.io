@@ -1,4 +1,5 @@
 ---
+lang: 'ko'
 date: '2019-06-01'
 title: 'Android Engineer'
 company: '공간소프트 (현 케어랩스)'

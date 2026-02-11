@@ -1,4 +1,5 @@
 ---
+lang: 'ko'
 date: '2021-03-01'
 title: 'Android Engineer'
 company: 'MVL (TADA)'
