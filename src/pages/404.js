@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, graphql } from 'gatsby';
-import { Helmet } from 'react-helmet';
+const Helmet = () => null;
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';

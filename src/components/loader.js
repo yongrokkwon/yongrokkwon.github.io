@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+const Helmet = () => null;
 import PropTypes from 'prop-types';
 import anime from 'animejs';
 import styled from 'styled-components';

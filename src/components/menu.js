@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Helmet } from 'react-helmet';
+const Helmet = () => null;
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { navLinks } from '@config';
