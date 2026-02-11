@@ -14,7 +14,6 @@ module.exports = {
     twitterUsername: '', // TODO: Twitter 계정 추가 시 설정
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
