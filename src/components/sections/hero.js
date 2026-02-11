@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { motion, AnimatePresence } from 'framer-motion';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 import { useLanguage } from '../../contexts/LanguageContext';
+
+const AnimatedCta = React.lazy(() => import('../AnimatedCta'));
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -87,7 +88,7 @@ const StyledHeroSection = styled.section`
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
   const prefersReducedMotion = usePrefersReducedMotion();
-  const { language, setLanguage, t, isHeroVisible } = useLanguage();
+  const { t, isHeroVisible } = useLanguage();
 
   useEffect(() => {
     if (prefersReducedMotion) {
@@ -97,10 +98,6 @@ const Hero = () => {
     const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
-
-  const toggleLanguage = () => {
-    setLanguage(language === 'ko' ? 'en' : 'ko');
-  };
 
   const one = <h1>{t('hero.greeting')}</h1>;
   const two = <h2 className="big-heading">{t('hero.name')}</h2>;
@@ -131,28 +128,9 @@ const Hero = () => {
   );
   const five = (
     <div className="hero-cta">
-      <AnimatePresence>
-        {isHeroVisible && (
-          <motion.div layoutId="hero-contact">
-            <a
-              className="email-link"
-              href="mailto:yongrok.kwon@gmail.com"
-              target="_blank"
-              rel="noreferrer">
-              {t('hero.contact')}
-            </a>
-          </motion.div>
-        )}
-      </AnimatePresence>
-      <AnimatePresence>
-        {isHeroVisible && (
-          <motion.div layoutId="lang-toggle">
-            <button className="lang-toggle" onClick={toggleLanguage} aria-label="Toggle language">
-              {language === 'ko' ? 'EN' : 'KO'}
-            </button>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <Suspense fallback={null}>
+        <AnimatedCta type="hero" isHeroVisible={isHeroVisible} />
+      </Suspense>
     </div>
   );
 
