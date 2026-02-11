@@ -40,7 +40,6 @@
     "framer-motion": "^6.5.1",
     "gatsby": "^4.25.0",
     "gatsby-plugin-google-analytics": "^4.25.0",
-    "gatsby-plugin-google-gtag": "^5.15.0",
     "gatsby-plugin-image": "^2.25.0",
     "gatsby-plugin-manifest": "^4.25.0",
     "gatsby-plugin-netlify": "^5.1.0",
@@ -83,8 +82,5 @@
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
-  },
-  "overrides": {
-    "node-html-parser": "3.3.6"
   }
 }

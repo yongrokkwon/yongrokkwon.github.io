@@ -47,18 +47,5 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: ['G-QQR2RJ43R3'],
-        gtagConfig: {
-          anonymize_ip: true,
-        },
-        pluginConfig: {
-          head: true,
-          respectDNT: true,
-        },
-      },
-    },
   ],
 };
