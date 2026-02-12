@@ -8,7 +8,15 @@ try {
   if (fs.existsSync(filePath)) {
     let content = fs.readFileSync(filePath, 'utf8');
     if (content.includes('exports.default = VoidTag;')) {
-      content = content.replace('exports.default = VoidTag;', 'module.exports = VoidTag;');
+      const newExport = `
+if (typeof exports !== "undefined") {
+    exports.default = VoidTag;
+    if (typeof module !== "undefined") {
+        module.exports = VoidTag;
+        module.exports.default = VoidTag;
+    }
+}`;
+      content = content.replace('exports.default = VoidTag;', newExport);
       fs.writeFileSync(filePath, content, 'utf8');
       console.log('Successfully fixed void-tag.js export');
     } else {

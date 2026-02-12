@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
@@ -9,8 +9,7 @@ import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
 import { IconLogo, IconHex } from '@components/icons';
 import { useLanguage } from '../contexts/LanguageContext';
-
-const AnimatedCta = React.lazy(() => import('./AnimatedCta'));
+import AnimatedCta from './AnimatedCta';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -239,9 +238,7 @@ const Nav = ({ isHome }) => {
 
   const NavCtaButtons = (
     <StyledNavCta>
-      <Suspense fallback={null}>
-        <AnimatedCta type="nav" isHeroVisible={isHeroVisible} />
-      </Suspense>
+      <AnimatedCta type="nav" isHeroVisible={isHeroVisible} />
     </StyledNavCta>
   );
 

@@ -22,8 +22,7 @@
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public",
-    "postinstall": "node scripts/fix-void-tag.js"
+    "deploy": "gh-pages -d public"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
